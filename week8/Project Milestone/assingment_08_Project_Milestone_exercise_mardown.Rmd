@@ -1,0 +1,105 @@
+---
+title: "Crypto mix for investment Portfolio - Project Milestone"
+author: "Sarika Singhal"
+date: "July 31st 2021"
+output:
+  html_document:
+    df_print: paged
+  word_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+```
+
+
+# Introduction
+
+Initial appearance of Cryptocurrency/Bitcoin/altcoin happened in 2009.Now we know it’s going to stay. Question being addressed is what is the right percentage of crypto should be in one’s investment portfolio. 
+
+# Research Question
+
+1. What are top cryptocurrency to be invested in and why? 
+2. What mix of cryptocurrency in portfolio is best? To determine risky vs safe
+3. Compare investment in crypto vs Gold & real-estate
+4. How much can cryptocurrency appreciate?
+5. Will cryptocurrency be used in commodity transactions soon?
+
+# Approach
+
+1. Identify Crypto use case and market valuation of use case vs adoption.
+2. Institutional adoption 
+3. World-wide laws in favor/against Cryptocurrency use.
+4. Gold and Real Estate market prediction and additional costs 
+5. Market volume and users for different cryptocurrency
+6. Identify Age Wise risky(aggressive) investment percentage in portfolio
+
+# How approach addresses the problem
+
+* Future Appreciation:
+  + Market valuation of use case vs current adoption can determine future growth potential
+  + Gold and Real Estate appreciation prediction will provide comparison to  
+* Risk factor:
+  + Institutional adoption data will provide stability data around cryptocurrency to under 
+  + Regional favored laws for cryptocurrency
+* Market capture:
+  + User and market volume provide indicators for future stability
+* Investment Portfolio Mix:
+  + This will provide the minimum investment strategy in cryptocurrency 
+  
+# Data
+
+1.Market capitalization data for top Crypto
+
+2.Institutional investment data in top Crypto 
+
+3.User base of Crypto 
+
+4.Agewise investment mix
+
+5.Future projects for cryptocurrency 
+
+# Required Packages
+
+* Treemap
+* Dplyr
+* Tidyr
+* Shiny
+* Caret
+* E1071
+* Plotly
+* tidyquant
+
+# Plots and Table Needs
+
+Treemap for Market capitalization
+Barcharts for Risk-factor pointing of top crypto
+Pie charts for crypto mix in portfolio 
+Table for data staging, processing and analysis
+
+# Next Steps
+
+* Get the dataset for all attributes
+* Transform the data for processing
+* Analyze the data 
+* Setting up correlation between different data.
+* Data visualization
+
+
+
+
+```{r cars}
+
+
+```
+
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+## References
+install.packages("knitr")
+
